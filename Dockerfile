@@ -1,8 +1,8 @@
-FROM amazonlinux:2017.03
+FROM amazonlinux:latest
 
 RUN yum -y install git \
-    python36 \
-    python36-pip \
+    python3 \
+    python3-pip \
     zip \
     && yum clean all
 
