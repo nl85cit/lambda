@@ -1,7 +1,8 @@
 #!/bin/bash
 
 mkdir tmp411
-git clone ${GIT_REPO}
+#git clone ${GIT_REPO}
+git clone https://github.com/nl85cit/lambda.git
 python3 -m pip install REPO/DIR -t tmp411
 
 # Untested optimization to reduce deployment size
