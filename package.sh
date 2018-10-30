@@ -3,7 +3,7 @@
 mkdir tmp411
 #git clone ${GIT_REPO}
 git clone https://github.com/nl85cit/lambda.git
-python3 -m pip install ${REPODIR} -t tmp411
+python3 -m pip install GIT_REPO -t tmp411
 
 # Untested optimization to reduce deployment size
 # See https://github.com/ralienpp/simplipy/blob/master/README.md
